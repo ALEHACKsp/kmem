@@ -89,4 +89,4 @@ std::printf("[+] ReadProcessMemory Result -> %d, mz -> 0x%x\n", result, mz);
 ```
 # Warning
 
-WriteProcessMemory does not work right now since NtWriteVirtualMemory --> MmCopyVirtualMemory --> MmProbeAndLockPages <--- this fails. https://githacks.org/_xeroxz/kmem/-/issues/1
+WriteProcessMemory does not work right now since NtWriteVirtualMemory --> MmCopyVirtualMemory --> MmProbeAndLockPages <--- this fails. 
